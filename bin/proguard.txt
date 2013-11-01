@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:11
+-keep class com.dawest.brick.UnityPlayerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class com.dawest.brick.UnityPlayerNativeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:5
+-keep class com.dawest.brick.UnityPlayerProxyActivity { <init>(...); }
+
