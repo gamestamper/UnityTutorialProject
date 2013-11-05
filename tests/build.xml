@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="MyTests" xmlns:monkeytalk="antlib:com.gorillalogic.monkeytalk.ant">
   <target name="myScript">
-    <monkeytalk:run agent="AndroidEmulator" script="${basedir}/MyFirstTest.mt" />
+    <monkeytalk:run agent="AndroidEmulator" script="${basedir}/MyFirstTest.mt" adb="/var/lib/jenkins/tools/android-sdk/platform-tools/adb" reportdir="${basedir}/reports" />
   </target>
 </project>
